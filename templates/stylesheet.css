@@ -1,0 +1,23 @@
+.rating {
+    width: 100%;
+    text-align:center;
+ }
+ 
+ .rating__star {
+    cursor: pointer;
+    color: #dabd18b2;
+      font-size: 1.4em;
+ }
+
+.rating button{
+      text-decoration: none;
+      color: #dabd18b2;
+      border-color: #dabd18b2;
+      border-width: 2px;
+}
+ 
+.rating button:hover{
+      color: white;
+      border-color: #dabd18b2;
+      background-color: #dabd18b2;
+}
