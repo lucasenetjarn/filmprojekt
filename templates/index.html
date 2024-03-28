@@ -23,9 +23,10 @@
                 <a class="nav-link" href="#">Link</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+            <form class="d-flex" role="search" id="searchForm" action="javascript:search();">
+              <input class="form-control me-2" type="search" id="searchItem" placeholder="Search" aria-label="Search">
+              <!--Button kör javascriptet search när man trycker på den-->
+              <button class="btn btn-outline-success" type="submit" onclick="document.getElementById('searchForm').submit(); return false;">Search</button>
             </form>
           </div>
         </div>
