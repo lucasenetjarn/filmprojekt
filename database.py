@@ -10,7 +10,7 @@ def get_database_connection():
 def get_all_movies():
     connection=get_database_connection()
     cursor = connection.cursor()
-    cursor.execute('SELECT * FROM filmer')
+    cursor.execute('SELECT * FROM filmer LEFT JOIN regissörer ON filmer.director_id = regissörer.id')
     data = cursor.fetchall()
    
     connection.close()

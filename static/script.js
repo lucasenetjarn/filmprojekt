@@ -28,6 +28,17 @@ function executeRating(stars) {
 }
 executeRating(ratingStars);
 
+
+
+
+
+
+
+
+
+
+
+
 function search() {
     
   //Skapar 4 variabler, name som är det man skriver in i form rutan
